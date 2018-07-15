@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.bku-main-color {
+  background-color: darkcyan;
+  color: white;
+}
+
+.bku-padding-left {
+  padding-left: 16px;
+}
+
+.bku-header {
+  padding: 20px 0px 10px 0px;
+}
+
+.bku-menu-button {
+  width: 250px;
+  text-align: left !important;
+}
+
+.mat-expansion-panel-body {
+  padding: 0 24px 0 !important;
+}
