@@ -2,8 +2,8 @@
   <mat-expansion-panel-header expandedHeight="120px" collapsedHeight="110px" >
     <mat-panel-title class="bku-padding-left">
       <div>
-        <h1>The Best Application</h1>
-        <p>A business accounting web application by Lynguine</p>
+        <h1 class="bku-color-white">The Best Application</h1>
+        <p class="bku-color-white">A business accounting web application by Lynguine</p>
       </div>
     </mat-panel-title>
   </mat-expansion-panel-header>
@@ -14,4 +14,6 @@
   <button mat-button class="bku-main-color bku-menu-button" routerLink="report">
     <i class="far fa-folder-open" style="font-size:24px"></i>&nbsp;&nbsp; Report</button>
 </mat-expansion-panel>
-<router-outlet></router-outlet>
+<div class="d-flex p-4 justify-content-center">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,10 @@
+<mat-table #table [dataSource]="tableDataSource" class="mat-elevation-z3">
+
+  <ng-container *ngFor="let disCol of tableModel; let colIndex = index" matColumnDef="{{disCol.dataKey}}">
+    <mat-header-cell *matHeaderCellDef [ngStyle]="{'width': disCol.dataWidth}">{{disCol.dataLabel}}</mat-header-cell>
+    <mat-cell *matCellDef="let element "> {{element[disCol.dataKey]}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="tableColumn"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: tableColumn;"></mat-row>
+</mat-table>

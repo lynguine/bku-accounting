@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 .bku-main-color {
   background-color: darkcyan;
   color: white;
@@ -19,4 +20,18 @@
 
 .mat-expansion-panel-body {
   padding: 0 24px 0 !important;
+}
+
+/*color*/
+.bku-color-white {
+  color: white;
+}
+
+/*font-size*/
+.bku-size-l {
+  font-size: large;
+}
+
+.bku-width-100 {
+  width:100%;
 }
