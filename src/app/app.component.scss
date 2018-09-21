@@ -1,0 +1,17 @@
+@import '../assets/styles/font-size';
+@import '../assets/styles/colors';
+
+.app-header {
+  padding: 20px 0px 10px 0px;
+  background-color: $theme-blue;
+
+  &__title {
+    @include font-header;
+    color: $white;
+  }
+
+  &__description {
+    @include font-sub-header;
+    color: $white;
+  }
+}

@@ -1,16 +1,15 @@
+@import 'assets/styles/colors';
+@import 'assets/styles/font-size';
+@import 'assets/styles/padding';
+
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 .bku-main-color {
   background-color: darkcyan;
-  color: white;
 }
 
 .bku-padding-left {
   padding-left: 16px;
-}
-
-.bku-header {
-  padding: 20px 0px 10px 0px;
 }
 
 .bku-menu-button {
@@ -24,7 +23,7 @@
 
 /*color*/
 .bku-color-white {
-  color: white;
+  color: $white;
 }
 
 /*font-size*/
