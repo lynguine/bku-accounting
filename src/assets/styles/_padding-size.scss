@@ -1,0 +1,15 @@
+@mixin padding-n {
+  padding: 0 !important;
+}
+
+@mixin padding-s {
+  padding: 100rem !important;
+}
+
+@mixin padding-m {
+  padding: 200rem !important;
+}
+
+@mixin padding-l {
+  padding: 400rem !important;
+}
